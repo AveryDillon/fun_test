@@ -1,0 +1,114 @@
+body{
+	font-family: "Merriweather", Georgia, serif;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height:2.375;
+	color:white;
+	background: url(./images/arid-cloud-formation.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+ 
+.intro {
+	text-align: center;
+	margin: auto;
+	padding: 3rem;
+	font-size: 20px;
+
+
+}
+
+.intro2 {
+	text-align: center;
+	margin:auto;
+	padding: 3rem;
+	font-size: 12px;
+
+}
+
+.nav-item:hover {
+  background-color: transparent;
+  color: transparent;
+  position: bottom;
+}
+
+.container_1 {
+	background-color: white;
+ 	border: none;
+ 	display: flex;
+ 	height: 4rem;
+ 	line-height: 4rem;
+ 	z-index:2;
+ 	color: black;
+ 	padding: 4px 10px;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	margin: 4px 2px;
+ 	transition: 0.3s;
+ 	position: bottom;
+}
+
+div.tab-pane  {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+.heroSection{
+	height: 94vh;
+}
+
+.container.navPills {
+    background-color: #0000008c;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.post_feature{
+	text-align: center;
+
+}
+
+.major {
+	text-align: center;
+}
+
+.profile {
+	text-align: center;
+}
+
+.contact {
+	text-align: center;
+}
+
+.date {
+	margin-top: -2rem;
+	margin: 0 0 4rem 0;
+	font-size: 1rem;
+	position: relative;
+
+}
+.nav-tabs .nav-link{
+	border-radius:0px;
+}
+
+
+@media screen and (max-width: 1280px)
+.post_feature {
+padding: 6rem 4rem 4rem 4rem;
+}
+
+@media screen and (max-width: 1280px)
+body {
+font-size: 11pt;
+}
+
+@media screen and (max-width: 1680px)
+main.css:124html {
+font-size: 12pt;
+} 
+   
+@media screen and (min-width: 768px) and (max-width: 959px) { 
+	 width: 768px; } 
+}
